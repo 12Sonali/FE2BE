@@ -79,9 +79,5 @@ def select_multiple_webpage(request):
     return render(request,'select_multiple_webpage.html',d)
 
 
-def checkbox(request):
-    QLTO=Topic.objects.all()
-    d={'topics':QLTO}
 
-    return render(request,'checkbox.html',d)
     
